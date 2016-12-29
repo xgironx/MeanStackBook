@@ -1,0 +1,40 @@
+<%-contentFor('body')%>
+    <div class="form-wrapper cf">
+		<div class="section-1 six col">
+			<div class="icon">
+				<i class="fa fa-user fa-3x" aria-hidden="true"></i>
+			</div>
+			<h1>Registar</h1>
+			<p id="company-person">A platform that bridges the gap between the programmer and the innovator, to build new awesome solutions</p>
+			<div class="row spacing">
+				<div class="col-md-offset-2 col-md-2">
+					<h6>Save Quality</h6>
+					<img src="img/coin.png" alt=""  class="img img-responsive">
+				</div>
+				<div class="col-md-offset-1 col-md-2">
+					<h6>Save Money</h6>
+					<img src="img/dollar-symbol.png" alt="" class="img img-responsive">
+				</div>
+				<div class="col-md-offset-1 col-md-2">
+					<h6>Save Time</h6>
+					<img src="img/time.png" alt="" class="img img-responsive">
+				</div>
+			</div>
+		</div>
+		<div class="section-2 six col">
+			<form class="form" action="/register" method="POST">
+				<div class="some-class">
+					<!--<input type="radio" class="radio" name="userChoice" value="programmer" id="y" />
+					<label for="y">Programmer</label>
+					<input type="radio" class="radio" name="userChoice" value="inovator" id="z" />
+					<label for="z">Inovator</label>
+				</div>
+				<input class="inp" type="text" name="firstname" placeholder="First Name">
+				<input class="inp" type="text" name="lastname" placeholder="Last Name">
+				<input class="inp" type="text" name="username" placeholder="Username">-->
+				<input class="inp" type="email" name="email" placeholder="Email">
+				<input class="inp" type="password" name="password" placeholder="Password">
+				<input type="submit" class="submit inp" value="Submit">
+			</form>
+		</div>
+	</div>
