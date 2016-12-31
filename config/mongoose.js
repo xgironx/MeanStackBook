@@ -6,7 +6,7 @@ module.exports = function(){
     mongoose.Promise = global.Promise;
     var db = mongoose.connect(connectionString);
 
-    require('../app/models/user.server.model');
+    require('../app/models/user.server.model').User;
 
     return db;
 };

@@ -41,4 +41,6 @@ UserSchema.methods.validPassword = function(password) {
     return bcrypt.compareSync(password, this.local.password);
 };
 
-mongoose.model('User',UserSchema);
+module.exports = {
+    User: mongoose.model('User',UserSchema)
+}
